@@ -15,6 +15,13 @@
  * @package WordPress
  */
 
+// Use these settings on the local server
+if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
+  include( dirname( __FILE__ ) . '/wp-config-local.php' );
+  
+// Otherwise use the below settings (on live server)
+} else {
+  
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'homescho_wrdp1');
@@ -27,6 +34,15 @@ define('DB_PASSWORD', 'RKp2B8I0WoKJ');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
+
+  // Overwrites the database to save keep editing the DB
+  define('WP_HOME','http://welcome.homeschoolgym.com/');
+  define('WP_SITEURL','http://welcome.homeschoolgym.com/');
+  
+  // Turn Debug off on live server
+  define('WP_DEBUG', false);
+
+}
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
