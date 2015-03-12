@@ -1,0 +1,169 @@
+LEGEND
+    * [release]
+	* [feature]
+	* [fix]
+	* [improved]
+	* [deprecated]
+	
+VERSION 1.0 - 2010.01.27
+
+    * Initial Release
+
+VERSION 1.1 - 2009.5.14
+
+    * header.php - Changed path to custom.css stylesheet
+	* Moved jQuery from external source to internal
+    * Fixed spacing issue between featured content boxes on front page
+
+VERSION 1.2 - 2009.5.31
+
+    * theme administration files - Changed to suit new standard BizzArtic theme framework
+    * widget administration files - Changed to suit new standard BizzArtic widget framework
+    * Relative dates now optional
+    * style.css - fixed image border
+    * footer list fix
+    * post list fix
+    * sider list fix
+    * Image Captions fix
+    * Header.php - fixed inclusion of Blog category in top menu
+    * Page.php & Single.php - added clearfix at the end of elements
+    * floats and centering
+    * clearing at the end of pagespot
+    * Top page selector (breadcrumb) fix for IE6
+    * Twidget position fixed if positioned in sidebar
+    * Custom fields for featured images now work only for pages, not posts
+
+VERSION 1.3 - 2009.6.5
+
+    * footer.php - Removed included suckerfish.js dropdown external file and made it internal due to problems in IE6
+
+VERSION 1.4 - 2009.6.11
+
+    * updates to admin panel to perform best with WP 2.8
+
+VERSION 1.5 - 2009.6.13
+
+    * Fixed drag/drop issue in widget panel
+
+VERSION 1.6 - 2009.7.16
+
+    * Updated theme admin panel
+    * Updated support guide + custom.css instructions
+    * Updated thumb.php script
+    * Resolved issue with JS error in IE6
+    * Added upload functionality
+    * Added footer page links
+
+VERSION 1.7 - 2010.2.7
+
+    * Updated whole back-end and front-end, so all options will be lost after upgrade
+    * Please reset all previous settings when updating to this release
+
+VERSION 1.8 - 2010.2.14
+
+    * Small fix in library/admin/admin_functions.php
+
+VERSION 1.9 - 2010.2.26
+
+    * Ajax in admin panel
+    * Added option to put comments on pages
+    * Breadcrumbs fix
+    * Hosted Twitter API script
+    * Added Custom template
+    * Added author hook (previously author template was included in library/hooks/archive.php)
+
+VERSION 2.0 - 2010.3.20
+
+    * Upgraded whole framework, especially all files in hooks folder
+    * Added design uptions
+    * Fixed crosstheme compatibility issues
+    * Fixed issue with not saving options
+    * Added SEO - Bulk Page Noindex option
+    * Added true hooks / actions system
+    * Added wysiwyg rich textarea widget
+    * Updated Icons & polished overall design
+    * Fixed line-height issues
+    * Added Prettyphoto script support (lightbox image pop-up)
+
+VERSION 2.0.1 - 2010.3.30
+
+    * PHP 4 compatibility update (fixed issue with theme options being choped away)
+    * Breadcrumbs fixes
+          o Nofollow links
+          o Remove category from navigation
+          o Add new page in-between home and blog link
+
+VERSION 2.1 - 2010.04.29
+
+    * WP 3.0 compatibility fix
+          o Admin scripts structure change
+          o Admin settings structure change
+          o Admin functions structure chnage
+    * Fixed breadcrumbs bug
+    * Fixed custom.css bug (not visible on activation)
+    * Restuctured options panel, added screeshots for help
+    * Changed admin css
+    * Cleaned up JS directory
+
+VERSION 2.1.1 - 2010.05.03
+
+    * Fixed library/admin/admin_scripts.php - page order issue.
+	
+VERSION 2.2 - 2010.05.28
+	* [improved]   Updated theme to the awesome new framework, basically
+	               all theme files are changed in one way or the other
+	* [deprecated] Social widget
+	* [deprecated] Twitter widget (Twitter gadget used instead)
+	* [deprecated] Ajax login
+	* [feature]    Added Archives template
+	* [feature]    Added Portfolio template
+	* [feature]    Added widgets module
+	* [feature]    FAQs (WP 3.0 only feature)
+	
+VERSION 2.2.1 - 2010.05.30
+	* [fix]        Placed action hooks outside functions (filters are now fixed)
+	* [fix]        Fixed Portfolio styling and widget lists
+	
+VERSION 2.2.2 - 2010.06.05
+	* [improved]   CSS optimization
+	* [improved]   Twitter gadget loads instantly
+	* [fix]        WP 3.0 navigation check
+	* [fix]        Delete thumbnail images from pages
+	* [fix]        Breadcrumbs check off
+	* [improved]   Branding as hook
+	
+VERSION 2.3 - 2010.06.19
+	* [improved]   CSS optimization
+	* [improved]   Twitter gadget loads instantly
+	* [fix]        Stripslashes
+	* [fix]        Branding options
+	
+VERSION 2.3.1 - 2010.06.20
+	* [feature]    Contact form widget
+	* [improved]   Twitter gadget now cached
+	* [feature]    Google fonts
+	* [fix]        Comments/Trackbacks
+	* [fix]        Blog title color now works
+	
+VERSION 2.3.2 - 2010.06.27
+	* [improved]   WYSIWYG upgrade
+	* [improved]   Better changelog tracking
+	
+VERSION 2.3.3 - 2010.07.10
+	* [fix]        Custom template
+	* [improved]   Blog template on front
+	
+VERSION 2.3.4 - 2010.08.14
+	* [improved]   Slider pages options upgrade
+	* [improved]   custom.css now visible by default
+	* [fix]        Skins are now always visible
+
+VERSION 2.3.5 - 2010.08.18
+	* [fix]        Search form submit button
+	* [fix]        Contact form now utf8 and has fixed email header
+
+VERSION 2.3.6 - 2011.03.28
+	* [fix]        static pages displayed correctly
+	
+VERSION 2.3.7 - 2011.07.05
+	* [fix]        theme scripts localization (WP 3.2 compatibility update)

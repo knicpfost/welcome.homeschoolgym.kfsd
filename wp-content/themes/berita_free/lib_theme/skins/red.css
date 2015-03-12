@@ -1,0 +1,19 @@
+/* RED skin */
+
+body { background-color:#F7F2F2 } 
+.navigation-area { background-color:#E5D7D7 }
+.sf-menu li ul  { background-color:#CBD5F2 }
+.sf-menu li.current_page_item { background-color:#EA8E75 }
+.footer-area { background-color:#E5D7D7 }
+#comments .comment .text-right .comm-reply, #breadcrumb p { background-color:#F7F2F2 }
+a.button, input[type="submit"], span.read-more a, .wp-pagenavi span.current { background-color:#C40000 }
+
+
+
+
+
+
+
+
+
+

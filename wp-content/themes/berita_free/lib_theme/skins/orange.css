@@ -1,0 +1,14 @@
+/* ORANGE skin */
+
+body { background-color:#F9EDDE } 
+.navigation-area { background-color:#F9DEBB }
+.sf-menu li ul  { background-color:#F2E7CB }
+.sf-menu li.current_page_item { background-color:#F9A331 }
+.footer-area { background-color:#F9DEBB }
+#comments .comment .text-right .comm-reply, #breadcrumb p { background-color:#F9EDDE }
+a.button, input[type="submit"], span.read-more a, .wp-pagenavi span.current { background-color:#ED5326 }
+
+
+
+
+

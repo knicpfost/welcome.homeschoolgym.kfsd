@@ -1,0 +1,14 @@
+/* BLUE skin */
+
+body { background-color:#ECF6FF } 
+.navigation-area { background-color:#BDD4E4 }
+.sf-menu li ul  { background-color:#CBD5F2 }
+.sf-menu li.current_page_item { background-color:#9FC3D9 }
+.footer-area { background-color:#BDD4E4 }
+#comments .comment .text-right .comm-reply, #breadcrumb p { background-color:#ECF6FF }
+a.button, input[type="submit"], span.read-more a, .wp-pagenavi span.current { background-color:#17517B }
+
+
+
+
+

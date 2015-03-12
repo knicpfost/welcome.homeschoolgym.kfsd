@@ -1,0 +1,14 @@
+/* GREEN skin */
+
+body { background-color:#EBFFEF } 
+.navigation-area { background-color:#C0E5B7 }
+.sf-menu li ul  { background-color:#E0F4CC }
+.sf-menu li.current_page_item { background-color:#9BD28E }
+.footer-area { background-color:#C0E5B7 }
+#comments .comment .text-right .comm-reply, #breadcrumb p { background-color:#EBFFEF }
+a.button, input[type="submit"], span.read-more a, .wp-pagenavi span.current { background-color:#115900 }
+
+
+
+
+

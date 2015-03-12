@@ -1,0 +1,14 @@
+/* PINK skin */
+
+body { background-color:#FFF9E6 } 
+.navigation-area { background-color:#F2DAE4 }
+.sf-menu li ul  { background-color:#FFDBE5 }
+.sf-menu li.current_page_item { background-color:#E5CCCD }
+.footer-area { background-color:#F2DAE4 }
+#comments .comment .text-right .comm-reply, #breadcrumb p { background-color:#FFF9E6 }
+a.button, input[type="submit"], span.read-more a, .wp-pagenavi span.current { background-color:#D85259 }
+
+
+
+
+

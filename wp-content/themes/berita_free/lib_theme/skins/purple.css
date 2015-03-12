@@ -1,0 +1,14 @@
+/* PURPLE skin */
+
+body { background-color:#F9EFFC } 
+.navigation-area { background-color:#EECFF9 }
+.sf-menu li ul  { background-color:#F2D6FC }
+.sf-menu li.current_page_item { background-color:#E6BBF7 }
+.footer-area { background-color:#EECFF9 }
+#comments .comment .text-right .comm-reply, #breadcrumb p { background-color:#F9EFFC }
+a.button, input[type="submit"], span.read-more a, .wp-pagenavi span.current { background-color:#6C178C }
+
+
+
+
+
